@@ -1,0 +1,12 @@
+pyproject.toml
+csv_detective/__init__.py
+csv_detective/analyzer.py
+csv_detective/cli.py
+csv_detective/display.py
+csv_detective/html_report.py
+csv_detective.egg-info/PKG-INFO
+csv_detective.egg-info/SOURCES.txt
+csv_detective.egg-info/dependency_links.txt
+csv_detective.egg-info/entry_points.txt
+csv_detective.egg-info/requires.txt
+csv_detective.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: csv-detective
+Version: 0.1.0
+Summary: Profile any CSV file — types, missing values, outliers, distributions.
+License: MIT
+Keywords: csv,cli,data,profiling,pandas,analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.5
+Requires-Dist: numpy>=1.23
+Requires-Dist: rich>=13.0

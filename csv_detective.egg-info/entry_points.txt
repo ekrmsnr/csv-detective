@@ -1,0 +1,2 @@
+[console_scripts]
+csv-detective = csv_detective.cli:main

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-detective"
+version = "0.1.0"
+description = "Profile any CSV file — types, missing values, outliers, distributions."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["csv", "cli", "data", "profiling", "pandas", "analysis"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+]
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "rich>=13.0",
+]
+
+[project.scripts]
+csv-detective = "csv_detective.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["csv_detective*"]
